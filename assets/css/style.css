@@ -1,7 +1,10 @@
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
-
+#shartz {
+  max-width: 100;
+  max-height: 100;
+}
 
 /**
  * copyright 2022 @codewithsadee
@@ -25,33 +28,33 @@
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+    hsl(240, 80%, 27%) 3%, 
+    hsl(221, 94%, 31%) 97%
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+    hsla(249, 98%, 19%, 0.808) 0%, 
+    hsla(240, 92%, 19%, 0.61) 100%
+  ), hsl(240, 100%, 17%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(66, 36%, 60%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+    hsl(212, 95%, 15%) 0%, 
+    hsla(212, 93%, 23%, 0.829) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
-  ), hsl(240, 2%, 13%);
+    hsla(197, 80%, 53%, 0.251) 0%, 
+    hsla(244, 88%, 19%, 0.452) 59.86%
+  ), hsl(241, 94%, 21%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(0, 0%, 25%) 0%, 
-    hsla(0, 0%, 25%, 0) 50%
+    hsl(216, 33%, 33%) 0%, 
+    hsla(212, 71%, 37%, 0.295) 50%
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsla(192, 99%, 36%, 0.534), 
+    hsla(204, 89%, 36%, 0.808)
   );
 
   /* solid */
@@ -63,8 +66,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(249, 85%, 37%);
+  --vegas-gold: hsl(253, 93%, 42%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
